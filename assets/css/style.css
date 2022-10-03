@@ -661,7 +661,12 @@ p {
   clip-path: circle(0% at 100% 0);
 }
 
-
+.head-main{
+  transition: .5s ease all;
+}
+.head-main:hover {
+  background: #1c2545;
+}
 
 
 
