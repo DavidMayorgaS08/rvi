@@ -118,7 +118,7 @@ section {
 }
 
 .head-main {
-  font-size: 60px;
+  font-size: 53px;
   font-weight: 900;
   padding: 5px;
   text-transform: uppercase;
@@ -345,4 +345,79 @@ p {
 
 .loader2 {
   clip-path: circle(0% at 100% 0);
+}
+
+
+button {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+  transition: 0.5s;
+  position: relative;
+  font-size: 17px;
+  background: #5361a0;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+}
+
+button:hover {
+  letter-spacing: 0.25em;
+  background: #c1c9fc;
+  color: #c1c9fc;
+  box-shadow: 0 0 45px #c1c9fc;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+}
+
+button span {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+button i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+button i::before {
+  content: '';
+  position: absolute;
+  border: 2px solid #c1c9fc;
+  width: 7px;
+  height: 4px;
+  top: -3.5px;
+  left: 80%;
+  
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+button:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+
+button i::after {
+  content: '';
+  position: absolute;
+  border: 2px solid #c1c9fc;
+  width: 7px;
+  height: 4px;
+  bottom: -3.5px;
+  left: 20%;
+
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+button:hover i::after {
+  width: 20px;
+  left: 80%;
 }
