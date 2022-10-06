@@ -77,7 +77,7 @@ p {
 }
 
 .g-pad-bottom {
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 section {
@@ -204,7 +204,7 @@ section {
 
 .cnt {
   width: 100%;
-  min-height: 350px;
+  min-height: 400px;
   border: 1px solid #e1e1e1;
 }
 
@@ -355,7 +355,7 @@ button {
   transition: 0.5s;
   position: relative;
   font-size: 17px;
-  background: #5361a0;
+  background: #c1c9fc;
   border: none;
   color: #fff;
   border-radius: 50px;
@@ -363,9 +363,9 @@ button {
 
 button:hover {
   letter-spacing: 0.25em;
-  background: #c1c9fc;
-  color: #c1c9fc;
-  box-shadow: 0 0 45px #c1c9fc;
+  background: #5361a0;
+  color: #5361a0;
+  box-shadow: 0 0 45px #5361a0;
 }
 
 button::before {
